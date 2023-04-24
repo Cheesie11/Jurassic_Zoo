@@ -59,10 +59,10 @@ section{
 /* home */
 
 .home{
-  min-height: 100vh;
+  min-height: 75vh;
   display: flex;
   align-items: center;
-  background: url("joe.jpg") no-repeat;
+  background: url("demo.jpg") no-repeat;
   border-radius: 0% 0% 81% 49% / 58% 83% 20% 32%;
   background-size: cover;
   background-position: top;
@@ -136,6 +136,33 @@ section{
   }
 
   /* end */
+
+
+  /* gallery */
+
+.gallery{
+  background: white;
+}
+
+.gallery .slide .image{
+  height: 30rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.gallery .slide .image img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.swiper-button-next,
+.swiper-button-prev{
+  color: white;
+}
+
+/* end */
+
 
 
   /* Footer */
