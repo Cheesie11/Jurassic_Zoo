@@ -41,6 +41,14 @@ section{
   margin-bottom: 3rem;
   padding: 1.2rem 0;
 }
+.heading2{
+  text-align: left;
+  font-size: 4rem;
+  color: #ccc;
+  text-transform: uppercase;
+  margin-bottom: 3rem;
+  padding: 1.2rem 0;
+}
 
 /* header */
 
@@ -58,15 +66,18 @@ section{
 
 /* home */
 
-.home{
+.home {
   min-height: 75vh;
   display: flex;
   align-items: center;
   background: url("demo.jpg") no-repeat;
-  border-radius: 0% 0% 81% 49% / 58% 83% 20% 32%;
   background-size: cover;
   background-position: top;
+  /*border-radius: 0% 0% 50% 50% / 0% 0% 20% 20%;*/
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+  padding-bottom: 30px;
 }
+
 
 .home .content{
   max-width: 60rem;
@@ -169,7 +180,7 @@ section{
 
 .footer{
     padding: 40px 0;
-    background-color: rgb(87, 83, 83);
+    background-color: #af9a78;
   }
   
   .footer .social{
@@ -180,7 +191,7 @@ section{
   .footer .social a{
     font-size: 24px;
     color:inherit;
-    color: #af9a78;
+    color: white;
     border: 1px solid #ccc;
     width: 40px;
     height:40px;
@@ -225,5 +236,5 @@ section{
     margin-top:15px;
     text-align:center;
     font-size: 13px;
-    color: #af9a78;
+    color: white;
   }
