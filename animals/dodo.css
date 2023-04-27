@@ -44,7 +44,7 @@ section{
 .heading2{
   text-align: left;
   font-size: 4rem;
-  color: #ccc;
+  color: #fffefe;
   text-transform: uppercase;
   margin-bottom: 3rem;
   padding: 1.2rem 0;
@@ -96,15 +96,22 @@ section{
 
 /* Welcome */
 
-.welcome h2{
-    margin-bottom: 15px;
+.welcome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 4rem 0;
 }
-.welcome p{
+
+.welcome p {
   font-size: 1.7rem;
   color: #444;
   padding: 1rem 0;
   line-height: 2;
+  max-width: 80rem;
 }
+
 
 /* End */
 
@@ -134,16 +141,20 @@ section{
     flex: 1 1 41rem;
   }
   
-  .about .content .title{
-    font-size: 4rem;
-    color: black;
+  .content ul {
+    list-style: none;
+    padding-left: 0;
   }
   
-  .about .content p{
-    font-size: 1.7rem;
+  .content li {
+    margin-bottom: 10px;
     color: #444;
-    padding: 1rem 0;
-    line-height: 2;
+    font-size: 1.7rem;
+  }
+  
+  .content i {
+    margin-right: 10px;
+    font-size: 2rem;
   }
 
   /* end */

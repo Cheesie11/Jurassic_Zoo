@@ -1,4 +1,4 @@
-var swiper = new Swiper(".gallery-slider", {
+let swiper = new Swiper(".gallery-slider", {
     grabCursor:true,
     loop:true,
     centeredSlides:true,
