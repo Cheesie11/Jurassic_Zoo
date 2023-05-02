@@ -9,6 +9,39 @@
   transition: .2s linear;
 }
 
+/* Nav */
+nav {
+  background-color: #af9a78;
+  overflow: hidden;
+}
+
+nav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.nav-link {
+  font-size: 1.7rem;
+  color: #444;
+  padding: 1rem 0;
+  line-height: 2;
+  max-width: 80rem;
+}
+
+.nav-link:hover {
+  font-size: 1.7rem;
+  color: #ffffff;
+  padding: 1rem 0;
+  line-height: 2;
+  max-width: 80rem;
+}
+
+/* end */
+
 html{
   font-size: 62.5%;
   overflow-x: hidden;
@@ -50,25 +83,13 @@ section{
   padding: 1.2rem 0;
 }
 
-/* header */
-
-.header{
-  position: fixed;
-  top: 0; left: 0; right: 0;
-  z-index: 1000;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 2rem 9%;
-}
-
 /* home */
 
 .home {
-  min-height: 80vh;
+  min-height: 67.5vh;
   display: flex;
   align-items: center;
-  background: url("joe.jpg") no-repeat;
+  background: url("start.jpg") no-repeat;
   background-size: cover;
   background-position: top;
   /*border-radius: 0% 0% 50% 50% / 0% 0% 20% 20%;*/
@@ -295,7 +316,6 @@ section{
 }
 
 /* end */
-
 
   /* Footer */
 

@@ -21,30 +21,56 @@
 </head>
 
 <body>
-    
-    <!-- header -->
 
-    <!--<header class="header">
 
-        <a href="#" class="logo"> <i class="fas fa-paw"></i> zoo</a>
+            <!--Navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark-bg-transparent">
+            <div class="container-fluid">
+              <!--Logo-->
+              <a class="navbar-brand fs-3 text-white" href="#">Jurassic Zoo</a>
+              <!--Toggle Btn-->
+              <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon" style="color:white"></span>
+              </button>
+              <!--Sidebar-->
+              <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <!--Sidebar Header-->
+                <div class="offcanvas-header text-white border-bottom" style="background-color:#af9a78">
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Jurassic Zoo</h5>
+                  <button type="button" class="btn-close btn-close-white shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <!--Sidebar Body-->
+                <div class="offcanvas-body d-flex flex-column flex-lg-row p-4 p-lg-0" style="background-color:#af9a78">
+                  <ul class="navbar-nav justify-content-center align-items-center fs-5 flex-grow-1 pe-3">
+                    <li class="nav-item mx-2">
+                      <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                      <a class="nav-link" href="#about">About Us</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                      <a class="nav-link" href="#animal">Animals</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                      <a class="nav-link" href="#openings">Information</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="#event">Events</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                  </ul>
 
-        <nav class="navbar">
-            <a href="#home">home</a>
-            <a href="#about">about</a>
-            <a href="#gallery">gallery</a>
-            <a href="#animal">animal</a>
-            <a href="#pricing">pricing</a>
-            <a href="#contact">contact</a>
-        </nav>
-
-        <div class="icons">
-            <div id="login-btn" class="fas fa-user"></div>
-            <div id="menu-btn" class="fas fa-bars"></div>
-        </div>
-
-        login form
-
-    </header>-->
+                  <div class="d-flex flex-column flex-lg-row justify-content-center align-items-center gap-5">
+                    <a href="#"><i class="fa-solid fa-paw" style="color: #ffffff; font-size: 3rem;"></i></a>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          </nav>
 
 
     <!-- end -->
@@ -68,7 +94,7 @@
 
         <!-- about -->
 
-        <section class="about">
+        <section class="about" id="about">
     
             <div class="box-container">
     
@@ -90,28 +116,28 @@
 
             <!-- animals -->
 
-    <section class="animal">
+    <section class="animal" id="animal">
 
         <h2 class="heading">animals</h2>
 
         <div class="box-container">
 
             <div class="box">
-                <img src="rex.jpg" alt="">
+                <img src="img/rex2.jpg" alt="">
                 <div class="content">
                     <button href="dodo.html" type="button" class="button-animals">T-Rex</button>
                 </div>
             </div>
 
             <div class="box">
-                <img src="dodo.jpg" alt="">
+                <img src="img/dodo.jpg" alt="">
                 <div class="content">
                     <button href="animals/dodo.html" type="button" class="button-animals">Dodo</button>
                 </div>
             </div>
 
             <div class="box">
-                <img src="ghost.jpg" alt="">
+                <img src="img/mosa.jpg" alt="">
                 <div class="content">
                     <button href="animals/dodo.html" type="button" class="button-animals">Mosasaurus</button>
                 </div>
@@ -142,7 +168,7 @@
 
     <!-- end -->
 
-    <section class="openings">
+    <section class="openings" id="openings">
         <h2 class="heading">information</h2>
         <hr>
 		<div class="container">
@@ -158,7 +184,7 @@
 				<h2>Prices</h2>
 				<p>Adults (21+ years): 29Fr.-</p>
                 <p>Teenagers (16-20 years): 24Fr.-</p>
-                <p>Children (8-15 years): 15Fr.-</p>
+                <p>Children (6-15 years): 15Fr.-</p>
                 <p>Children under 6 years: Free entry</p>
 			</div>
 		</div>
@@ -167,7 +193,7 @@
 
         <!-- pricing -->
 
-        <section class="event">
+        <section class="event" id="event">
 
             <h2 class="heading">events</h2>
     
@@ -196,7 +222,6 @@
         </section>
     
         <!-- end -->
-
 
         <!--Footer-->
 
