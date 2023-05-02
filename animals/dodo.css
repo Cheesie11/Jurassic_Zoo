@@ -9,6 +9,37 @@
   transition: .2s linear;
 }
 
+/* Nav */
+nav {
+  background-color: #af9a78;
+  overflow: hidden;
+}
+
+nav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.nav-link {
+  font-size: 1.7rem;
+  color: #444;
+  padding: 1rem 0;
+  line-height: 2;
+  max-width: 80rem;
+}
+
+nav i.fa-dinosaur {
+  float: right;
+  margin: 10px 20px 0 0;
+  font-size: 24px;
+}
+
+/* end */
+
 html{
   font-size: 62.5%;
   overflow-x: hidden;
@@ -65,7 +96,7 @@ section{
 /* home */
 
 .home {
-  min-height: 77.5vh;
+  min-height: 67.5vh;
   display: flex;
   align-items: center;
   background: url("img/dodo4.jpg") no-repeat;
