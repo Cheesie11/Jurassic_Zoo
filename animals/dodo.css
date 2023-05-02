@@ -56,8 +56,6 @@ section{
   position: fixed;
   top: 0; left: 0; right: 0;
   z-index: 1000;
-  background: var(--white);
-  box-shadow: var(--box-shadow);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -67,10 +65,10 @@ section{
 /* home */
 
 .home {
-  min-height: 75vh;
+  min-height: 77.5vh;
   display: flex;
   align-items: center;
-  background: url("demo.jpg") no-repeat;
+  background: url("img/dodo4.jpg") no-repeat;
   background-size: cover;
   background-position: top;
   /*border-radius: 0% 0% 50% 50% / 0% 0% 20% 20%;*/
@@ -84,7 +82,6 @@ section{
 }
 
 .home .content h3{
-  color: var(--white);
   font-size: 6rem;
   line-height: 1.4;
   font-weight: 400;
@@ -134,7 +131,7 @@ section{
   
   .about .box-container .image img{
     width: 105%;
-    border-radius: 79% 31% 81% 15% / 48% 93% 40% 82%;
+    border-radius: 39% 61% 81% 15% / 68% 33% 40% 22%;
   }
   
   .about .content{
@@ -147,14 +144,14 @@ section{
   }
   
   .content li {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     color: #444;
     font-size: 1.7rem;
   }
   
   .content i {
     margin-right: 10px;
-    font-size: 2rem;
+    font-size: 2.2rem;
   }
 
   /* end */

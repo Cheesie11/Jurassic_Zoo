@@ -8,23 +8,6 @@
 
 /* contact */
 
-.contact .sidebar {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 40%;
-    height: calc(100% - 120px); /* subtract the height of the footer */
-    background-color: green;
-  }
-
-  @media (max-width: 768px) {
-    .contact .sidebar {
-            width: 100%;
-            height: auto;
-            position: static;
-    }
-  }
-
 .contact{
     background: #af9a78;
   }
