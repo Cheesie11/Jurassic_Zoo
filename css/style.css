@@ -83,13 +83,22 @@ section{
   padding: 1.2rem 0;
 }
 
+.heading3{
+  text-align: left;
+  font-size: 3rem;
+  color: #444;
+  text-transform: uppercase;
+  margin-bottom: 3rem;
+  padding: 1.2rem 0;
+}
+
 /* home */
 
 .home {
   min-height: 67.5vh;
   display: flex;
   align-items: center;
-  background: url("") no-repeat;
+  background: url("img/start.jpg") no-repeat;
   background-size: cover;
   background-position: top;
   /*border-radius: 0% 0% 50% 50% / 0% 0% 20% 20%;*/
@@ -180,8 +189,6 @@ section{
   /* end */
 
 
-
-
   /* animals */
 
 .animal .box-container{
@@ -241,6 +248,7 @@ section{
   
   /* end */
   
+
   /* openings */
 
   .openings {
@@ -273,9 +281,25 @@ section{
     padding-left: 20px;
   }
 
-
+  .impressum-button {
+    background-color: #7fcfa1; 
+    border: none; 
+    margin-top: 25px;
+    color: white; 
+    padding: 7px 15px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    border-radius: 5px; 
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+  }
+  
+  .impressum-button:hover {
+    background-color: #56c686; /* Darker green background color on hover */
+  }
   /* end */
-
 
 
   /* events */
@@ -315,7 +339,8 @@ section{
   padding: .5rem 0;
 }
 
-/* end */
+  /* end */
+
 
   /* Footer */
 
