@@ -291,6 +291,10 @@ section{
     padding-left: 20px;
   }
 
+  .openings .container .left button{
+    background-color: transparent;
+ }
+
   .impressum-button {
     background-color: #7fcfa1; 
     border: none; 
@@ -307,7 +311,7 @@ section{
     transition: background-color 0.3s ease; 
   }
   
-.impressum-button:hover {
+ .impressum-button:hover {
     background-color: #56c686;
   }
 
