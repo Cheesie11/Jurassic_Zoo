@@ -92,6 +92,14 @@ section{
   padding: 1.2rem 0;
 }
 
+.heading4{
+  font-size: 4rem;
+  color: #55aa7a;
+  text-transform: uppercase;
+  margin-bottom: 3rem;
+  padding: 1.2rem 0;
+}
+
 /* home */
 
 .home {
@@ -120,25 +128,12 @@ section{
   padding: 4rem 0;
 }
 
-.welcome p {
-  font-size: 1.7rem;
-  color: #444;
-  padding: 1rem 0;
-  line-height: 2;
-  max-width: 80rem;
-}
-
-
-/* End */
-
-
-/* Welcome */
-
 .welcome h2{
-    margin-bottom: 15px;
-    
+  margin-bottom: 15px;
+  
 }
-.welcome p{
+
+.welcome p {
   font-size: 1.7rem;
   color: #444;
   padding: 1rem 0;
@@ -403,4 +398,29 @@ section{
     text-align:center;
     font-size: 13px;
     color: white;
+  }
+
+  /* end */
+
+
+  /* policy */
+
+  .policy {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    padding: 4rem 0;
+  }
+  
+  .policy h2{
+    margin-bottom: 15px;
+    
+  }
+  
+  .policy p {
+    font-size: 1.7rem;
+    color: #444;
+    padding: 1rem 0;
+    line-height: 2;
+    max-width: 80rem;
   }
