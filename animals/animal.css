@@ -101,7 +101,6 @@ section{
   min-height: 67.5vh;
   display: flex;
   align-items: center;
-  background: url("img/dodo4.jpg") no-repeat;
   background-size: cover;
   background-position: top;
   /*border-radius: 0% 0% 50% 50% / 0% 0% 20% 20%;*/
