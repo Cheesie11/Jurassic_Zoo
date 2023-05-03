@@ -106,7 +106,6 @@ section{
   min-height: 67.5vh;
   display: flex;
   align-items: center;
-  background: url("img/start.jpg") no-repeat;
   background-size: cover;
   background-position: top;
   /*border-radius: 0% 0% 50% 50% / 0% 0% 20% 20%;*/
@@ -408,7 +407,7 @@ section{
   .policy {
     display: flex;
     flex-direction: column;
-    margin-left: 100px;
+    margin-left: 25px;
     padding: 4rem 0;
   }
   
