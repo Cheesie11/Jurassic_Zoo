@@ -70,19 +70,20 @@
 
     <!-- end -->
 
-    <section class="contact" id="contact">
-        <h2 class="heading">Contact</h2>
-        <form>
-            <div class="input">
-            <input type="text" placeholder="name">
-            <input type="email" placeholder="email">
-            </div>
 
-            <div class="message">
-                <textarea id="textarea"></textarea>
-            </div>
-        </form>
-    </section>
+    <!-- Contact -->
+
+    <section class="contact" id="contact">
+    <form action="https://formsubmit.co/el/susozu" method="POST">
+        <input type="email" name="email" placeholder="Email Address" required>
+        <input type="hidden" name="_next" value="thanks.html">
+        <!-- <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html"> -->
+        <input type="text" name="name" placeholder="message" required>
+        <button type="submit">Send</button>
+   </form>
+   </section>
+
+    <!-- end -->
 
     <!--Footer-->
 
