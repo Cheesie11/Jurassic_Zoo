@@ -108,11 +108,9 @@ section{
   align-items: center;
   background-size: cover;
   background-position: top;
-  /*border-radius: 0% 0% 50% 50% / 0% 0% 20% 20%;*/
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
   padding-bottom: 30px;
 }
-
 
 /* end */
 
@@ -229,8 +227,9 @@ section{
   }
   
   .animal .box-container .box .content .button-animals{
-    background-color: transparent;
+    background-color: none;
     border: none;
+    text-decoration: none;
     text-align: center;
     font-size: 3rem;
     color: white;
@@ -243,7 +242,7 @@ section{
   /* end */
   
 
-  /* openings */
+  /* openings / impressum */
 
   .openings {
     border-color: #444;
@@ -257,13 +256,25 @@ section{
   }
 
   .openings .container h2{
-    margin-bottom: 10px;
+    margin-bottom: 15px;
   }
 
   .openings .container p{
     font-size: 1.7rem;
     color: #444;
   }
+  .openings .container .icon{
+    font-size: 1.7rem;
+    color: #444;
+    margin-bottom: 10px;
+  }
+
+  .openings .container .icon i{
+    margin-right: 10px;
+    font-size: 1.7rem;
+    color: #55aa7a;
+  }
+
   .openings .container .left {
     flex-basis: 50%;
     padding-right: 20px;
@@ -278,7 +289,8 @@ section{
   .impressum-button {
     background-color: #7fcfa1; 
     border: none; 
-    margin-top: 25px;
+    margin-top: 10px;
+    margin-bottom: 50px;
     color: white; 
     padding: 7px 15px; 
     text-align: center; 
@@ -286,12 +298,17 @@ section{
     display: inline-block; 
     font-size: 16px; 
     border-radius: 5px; 
-    cursor: pointer; /* Change cursor to pointer on hover */
-    transition: background-color 0.3s ease; /* Smooth transition on hover */
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
   }
   
   .impressum-button:hover {
-    background-color: #56c686; /* Darker green background color on hover */
+    background-color: #56c686;
+  }
+
+  iframe{
+    width: 80%;
+    height: 300px;
   }
   /* end */
 
@@ -422,4 +439,13 @@ section{
     padding: 1rem 0;
     line-height: 2;
     max-width: 80rem;
+  }
+
+  @media(max-width: 991px){
+    html{
+      font-size: 55%;
+    }
+    section{
+      padding: 8rem 2rem;
+    }
   }
