@@ -246,6 +246,24 @@
         </section>
 
         <!--end-->
-
-</body>
+          
+    </body>
+    <script>
+        const toggleButton = document.querySelector('.navbar-toggler');
+        const offcanvasNavbar = document.querySelector('#offcanvasNavbar');
+        let scrollPosition;
+        toggleButton.addEventListener('click', () => {
+          if (offcanvasNavbar.classList.contains('show')) {
+            // Sidebar close
+            scrollPosition = window.pageYOffset;
+          } else {
+            // Sidebar open
+          }
+        });
+        const closeButton = document.querySelector('.btn-close');
+        closeButton.addEventListener('click', () => {
+          // Restore position
+          window.scrollTo(0, scrollPosition);
+        });
+      </script>
 </html>
