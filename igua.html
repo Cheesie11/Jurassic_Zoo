@@ -1,192 +1,204 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jurassic Zoo</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jurassic Zoo</title>
 
-    <!-- linsk / script -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-    
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah&display=swap">
+  <!-- linsk / script -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah&display=swap">
 
-    <link rel="stylesheet" href="animals/animal.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+  <link rel="stylesheet" href="animals/animal.css">
 </head>
 
 <body>
 
-        <!--Navbar-->
-        <nav class="navbar navbar-expand-lg navbar-dark-bg-transparent">
-            <div class="container-fluid">
-              <!--Logo-->
-              <a class="navbar-brand fs-3 text-white" href="#">Jurassic Zoo</a>
-              <!--Toggle Btn-->
-              <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon" style="color:white"></span>
-              </button>
-              <!--Sidebar-->
-              <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                <!--Sidebar Header-->
-                <div class="offcanvas-header text-white border-bottom" style="background-color:#af9a78">
-                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Jurassic Zoo</h5>
-                  <button type="button" class="btn-close btn-close-white shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <!--Sidebar Body-->
-                <div class="offcanvas-body d-flex flex-column flex-lg-row p-4 p-lg-0" style="background-color:#af9a78">
-                  <ul class="navbar-nav justify-content-center align-items-center fs-5 flex-grow-1 pe-3">
-                    <li class="nav-item mx-2">
-                      <a class="nav-link" href="index.html#home">Home</a>
-                    </li>
-                    <li class="nav-item mx-2">
-                      <a class="nav-link" href="index.html#about">About Us</a>
-                    </li>
-                    <li class="nav-item mx-2">
-                      <a class="nav-link" href="index.html#animal">Animals</a>
-                    </li>
-                    <li class="nav-item mx-2">
-                      <a class="nav-link" href="index.html#openings">Information</a>
-                    </li>
-                    <li class="nav-item mx-2">
-                        <a class="nav-link" href="index.html#event">Events</a>
-                    </li>
-                    <li class="nav-item mx-2">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                  </ul>
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-lg navbar-dark-bg-transparent">
+    <div class="container-fluid">
+      <!--Logo-->
+      <a class="navbar-brand fs-3 text-white" href="#">Jurassic Zoo</a>
+      <!--Toggle Btn-->
+      <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon" style="color:white"></span>
+      </button>
+      <!--Sidebar-->
+      <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+        aria-labelledby="offcanvasNavbarLabel">
+        <!--Sidebar Header-->
+        <div class="offcanvas-header text-white border-bottom" style="background-color:#af9a78">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Jurassic Zoo</h5>
+          <button type="button" class="btn-close btn-close-white shadow-none" data-bs-dismiss="offcanvas"
+            aria-label="Close"></button>
+        </div>
+        <!--Sidebar Body-->
+        <div class="offcanvas-body d-flex flex-column flex-lg-row p-4 p-lg-0" style="background-color:#af9a78">
+          <ul class="navbar-nav justify-content-center align-items-center fs-5 flex-grow-1 pe-3">
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="index.html#home">Home</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="index.html#about">About Us</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="index.html#animal">Animals</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="index.html#openings">Information</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="index.html#event">Events</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
 
-                  <div class="d-flex flex-column flex-lg-row justify-content-center align-items-center gap-5">
-                    <a href="index.html"><i class="fa-solid fa-paw" style="color: #ffffff; font-size: 3rem;"></i></a>
-                </div>
-                </div>
-              </div>
-            </div>
+          <div class="d-flex flex-column flex-lg-row justify-content-center align-items-center gap-5">
+            <a href="index.html"><i class="fa-solid fa-paw" style="color: #ffffff; font-size: 3rem;"></i></a>
           </div>
-        
-          </nav>
-
-
-    <!-- home -->
-
-    <section class="home" id="home" style="background-image: url(animals/img/igua4.jpg);"></section>
-
-    <!-- end -->
-
-
-    <!-- welcome-->
-
-    <section class="welcome" id="welcome">
-        <h2 class="heading">The Iguanodon</h2>
-        <p>The Iguanodon was a large herbivorous dinosaur that lived approximately 140 million years ago during the Early Cretaceous period. It had a distinctive beak-like mouth and thumb spike and was an important species in the early study of dinosaurs.</p>
-
-    </section>
-
-    <!-- end -->
-
-    <!-- about -->
-
-        <section class="about">
-            <div class="box-container">
-              <div class="image">
-                <img src="animals/img/igua.jpg" alt="">
-              </div>
-              <div class="content">
-                <h3 class="heading2">facts</h3>
-                <ul>
-                    <li><i class="fa-solid fa-paw"></i> Type: Reptile</li>
-                    <li><i class="fa-solid fa-heart"></i> Lifespan: 20-30 years</li>
-                    <li><i class="fa-solid fa-weight-scale"></i> Weight: 0.5-4 tons</li>
-                    <li><i class="fa-solid fa-gauge-simple-high"></i> Speed: 24-32 km/h</li>
-                    <li><i class="fa-solid fa-drumstick-bite"></i> Food: Vegetation</li>
-                </ul>
-              </div>
-            </div>
-          </section>
-          
-    
-    
-    <!-- end -->
-
-
-    <!-- gallery -->
-
-    <section class="gallery" id="gallery">
-
-        <h2 class="heading">gallery</h2>
-
-        <div class="swiper gallery-slider">
-
-            <div class="swiper-wrapper">
-
-                <div class="swiper-slide slide">
-                    <div class="image">
-                        <img src="animals/img/igua2.jpg" alt="">
-                    </div>
-                </div>
-
-                <div class="swiper-slide slide">
-                    <div class="image">
-                        <img src="animals/img/igua3.jpg" alt="">
-                    </div>
-                </div>
-
-                <div class="swiper-slide slide">
-                    <div class="image">
-                        <img src="animals/img/igua5.jpg" alt="">
-                    </div>
-                </div>
-
-                <div class="swiper-slide slide">
-                    <div class="image">
-                        <img src="animals/img/igua.jpg" alt="">
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
-
         </div>
+      </div>
+    </div>
+    </div>
 
-    </section>
+  </nav>
 
-    <!-- end -->
 
-    <!--Footer-->
+  <!-- home -->
 
-    <section class="footer">
-        <div class="social">
-          <a href="https://www.instagram.com/jurassiczoo1/"><i class="fab fa-instagram"></i></a>
-          <a href="https://twitter.com/jurassiczoo1"><i class="fab fa-twitter"></i></a>
-          <a href="https://www.facebook.com/profile.php?id=100092211200568"><i class="fab fa-facebook"></i></a>
-        </div>
-    
-        <ul class="list">
-            <li>
-                <a href="index.html">Home</a>
-            </li>
-            <li>
-                <a href="policy.html">Privacy Policy</a>
-            </li>
-            <li>
-                <a href="impressum.html">Impressum</a>
-            </li>
+  <section class="home" id="home" style="background-image: url(animals/img/igua4.jpg);"></section>
+
+  <!-- end -->
+
+
+  <!-- welcome-->
+
+  <section class="welcome" id="welcome">
+    <h2 class="heading">The Iguanodon</h2>
+    <p>The Iguanodon was a large herbivorous dinosaur that lived approximately 140 million years ago during the Early
+      Cretaceous period. It had a distinctive beak-like mouth and thumb spike and was an important species in the early
+      study of dinosaurs.</p>
+
+  </section>
+
+  <!-- end -->
+
+  <!-- about -->
+
+  <section class="about">
+    <div class="box-container">
+      <div class="image">
+        <img src="animals/img/igua.jpg" alt="">
+      </div>
+      <div class="content">
+        <h3 class="heading2">facts</h3>
+        <ul>
+          <li><i class="fa-solid fa-paw"></i> Type: Reptile</li>
+          <li><i class="fa-solid fa-heart"></i> Lifespan: 20-30 years</li>
+          <li><i class="fa-solid fa-weight-scale"></i> Weight: 0.5-4 tons</li>
+          <li><i class="fa-solid fa-gauge-simple-high"></i> Speed: 24-32 km/h</li>
+          <li><i class="fa-solid fa-drumstick-bite"></i> Food: Vegetation</li>
         </ul>
-        <p class="title">Jurassic Zoo</p>
-    </section>
+      </div>
+    </div>
+  </section>
 
-    <!--end-->
 
-    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 
-    <script src="animals/script.js"></script>
+  <!-- end -->
+
+
+  <!-- gallery -->
+
+  <section class="gallery" id="gallery">
+
+    <h2 class="heading">gallery</h2>
+
+    <div class="swiper gallery-slider">
+
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide slide">
+          <div class="image">
+            <img src="animals/img/igua2.jpg" alt="">
+          </div>
+        </div>
+
+        <div class="swiper-slide slide">
+          <div class="image">
+            <img src="animals/img/igua3.jpg" alt="">
+          </div>
+        </div>
+
+        <div class="swiper-slide slide">
+          <div class="image">
+            <img src="animals/img/igua5.jpg" alt="">
+          </div>
+        </div>
+
+        <div class="swiper-slide slide">
+          <div class="image">
+            <img src="animals/img/igua.jpg" alt="">
+          </div>
+        </div>
+
+      </div>
+
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+
+    </div>
+
+  </section>
+
+  <!-- end -->
+
+  <!--Footer-->
+
+  <section class="footer">
+    <div class="social">
+      <a href="https://www.instagram.com/jurassiczoo1/"><i class="fab fa-instagram"></i></a>
+      <a href="https://twitter.com/jurassiczoo1"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.facebook.com/profile.php?id=100092211200568"><i class="fab fa-facebook"></i></a>
+    </div>
+
+    <ul class="list">
+      <li>
+        <a href="index.html">Home</a>
+      </li>
+      <li>
+        <a href="policy.html">Privacy Policy</a>
+      </li>
+      <li>
+        <a href="impressum.html">Impressum</a>
+      </li>
+    </ul>
+    <p class="title">Jurassic Zoo</p>
+  </section>
+
+  <!--end-->
+
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+  <script src="animals/script.js"></script>
 
 </body>
+
 </html>

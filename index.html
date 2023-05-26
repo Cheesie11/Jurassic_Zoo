@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,13 +8,18 @@
     <title>Jurassic Zoo</title>
 
     <!-- linsk / script -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah&display=swap">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
 
@@ -22,54 +28,58 @@
 
 <body>
 
-    
-        <!--Navbar-->
-        <nav class="navbar navbar-expand-lg navbar-dark-bg-transparent">
-            <div class="container-fluid">
-              <!--Logo-->
-              <a class="navbar-brand fs-3 text-white" href="#">Jurassic Zoo</a>
-              <!--Toggle Btn-->
-              <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark-bg-transparent">
+        <div class="container-fluid">
+            <!--Logo-->
+            <a class="navbar-brand fs-3 text-white" href="#">Jurassic Zoo</a>
+            <!--Toggle Btn-->
+            <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon" style="color:white"></span>
-              </button>
-              <!--Sidebar-->
-              <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            </button>
+            <!--Sidebar-->
+            <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
                 <!--Sidebar Header-->
                 <div class="offcanvas-header text-white border-bottom" style="background-color:#af9a78">
-                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Jurassic Zoo</h5>
-                  <button type="button" class="btn-close btn-close-white shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Jurassic Zoo</h5>
+                    <button type="button" class="btn-close btn-close-white shadow-none" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
                 </div>
                 <!--Sidebar Body-->
                 <div class="offcanvas-body d-flex flex-column flex-lg-row p-4 p-lg-0" style="background-color:#af9a78">
-                  <ul class="navbar-nav justify-content-center align-items-center fs-5 flex-grow-1 pe-3">
-                    <li class="nav-item mx-2">
-                      <a class="nav-link" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item mx-2">
-                      <a class="nav-link" href="#about">About Us</a>
-                    </li>
-                    <li class="nav-item mx-2">
-                      <a class="nav-link" href="#animal">Animals</a>
-                    </li>
-                    <li class="nav-item mx-2">
-                      <a class="nav-link" href="#openings">Information</a>
-                    </li>
-                    <li class="nav-item mx-2">
-                        <a class="nav-link" href="#event">Events</a>
-                    </li>
-                    <li class="nav-item mx-2">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                  </ul>
+                    <ul class="navbar-nav justify-content-center align-items-center fs-5 flex-grow-1 pe-3">
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="#about">About Us</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="#animal">Animals</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="#openings">Information</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="#event">Events</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
 
-                  <div class="d-flex flex-column flex-lg-row justify-content-center align-items-center gap-5">
-                    <a href="index.html"><i class="fa-solid fa-paw" style="color: #ffffff; font-size: 3rem;"></i></a>
+                    <div class="d-flex flex-column flex-lg-row justify-content-center align-items-center gap-5">
+                        <a href="index.html"><i class="fa-solid fa-paw"
+                                style="color: #ffffff; font-size: 3rem;"></i></a>
+                    </div>
                 </div>
-                </div>
-              </div>
             </div>
-          </div>
-        </nav>
+        </div>
+        </div>
+    </nav>
 
 
     <!-- end -->
@@ -85,35 +95,43 @@
 
     <section class="welcome" id="welcome">
         <h2 class="heading">Welcome to Jurassic Zoo!</h2>
-        <p>Get ready to embark on a prehistoric adventure and explore the wonders of the dinosaur world. Our zoo is home to a variety of magnificent creatures from the Jurassic period, and we can't wait to share them with you. Come discover the fascinating history of these incredible animals and witness them come to life in our exhibits. We hope you enjoy your visit!</p>
+        <p>Get ready to embark on a prehistoric adventure and explore the wonders of the dinosaur world. Our zoo is home
+            to a variety of magnificent creatures from the Jurassic period, and we can't wait to share them with you.
+            Come discover the fascinating history of these incredible animals and witness them come to life in our
+            exhibits. We hope you enjoy your visit!</p>
 
     </section>
 
     <!-- end -->
 
-        <!-- about -->
+    <!-- about -->
 
-        <section class="about" id="about">
-    
-            <div class="box-container">
-    
-                <div class="image">
-                    <img src="css/img/about.jpg" alt="">
-                </div>
-    
-                <div class="content">
-                    <h3 class="heading2">About Us</h3>
-                    <p>Welcome to Jurassic Zoo! Our zoo is home to a variety of fascinating creatures from prehistoric times, including fearsome dinosaurs and other ancient species. We are committed to providing a safe and educational environment for visitors of all ages to learn about these incredible creatures and their place in the natural world. Our knowledgeable staff are passionate about conservation and are dedicated to preserving these amazing animals for generations to come. Come explore the wonders of the past at Jurassic Zoo!</p>
-                </div>
+    <section class="about" id="about">
+
+        <div class="box-container">
+
+            <div class="image">
+                <img src="css/img/about.jpg" alt="">
             </div>
-    
-        </section>
-    
-    
-        <!-- end -->
+
+            <div class="content">
+                <h3 class="heading2">About Us</h3>
+                <p>Welcome to Jurassic Zoo! Our zoo is home to a variety of fascinating creatures from prehistoric
+                    times, including fearsome dinosaurs and other ancient species. We are committed to providing a safe
+                    and educational environment for visitors of all ages to learn about these incredible creatures and
+                    their place in the natural world. Our knowledgeable staff are passionate about conservation and are
+                    dedicated to preserving these amazing animals for generations to come. Come explore the wonders of
+                    the past at Jurassic Zoo!</p>
+            </div>
+        </div>
+
+    </section>
 
 
-        <!-- animals -->
+    <!-- end -->
+
+
+    <!-- animals -->
 
     <section class="animal" id="animal">
 
@@ -124,7 +142,7 @@
             <div class="box">
                 <a href="rex.html">
                     <img src="css/img/rex2.jpg" alt="">
-                  </a>
+                </a>
                 <div class="content">
                     <button><a href="dodo.html" class="button-animals">T-Rex</a></button>
                 </div>
@@ -133,7 +151,7 @@
             <div class="box">
                 <a href="dodo.html">
                     <img src="css/img/dodo.jpg" alt="">
-                  </a>
+                </a>
                 <div class="content">
                     <button><a href="dodo.html" class="button-animals">Dodo</a></button>
                 </div>
@@ -142,7 +160,7 @@
             <div class="box">
                 <a href="mosasaurus.html">
                     <img src="css/img/mosa.jpg" alt="">
-                  </a>
+                </a>
                 <div class="content">
                     <button><a href="mosasaurus.html" class="button-animals">Mosasaurus</a></button>
                 </div>
@@ -151,7 +169,7 @@
             <div class="box">
                 <a href="pterodactyls.html">
                     <img src="css/img/petr.jpg" alt="">
-                  </a>
+                </a>
                 <div class="content">
                     <button><a href="pterodactyls.html" class="button-animals">Pterodactyls</a></button>
                 </div>
@@ -160,7 +178,7 @@
             <div class="box">
                 <a href="spino.html">
                     <img src="css/img/spino2.jpg" alt="">
-                  </a>
+                </a>
                 <div class="content">
                     <button><a href="spino.html" class="button-animals">Spinosaurus</a></button>
                 </div>
@@ -168,7 +186,7 @@
             <div class="box">
                 <a href="igua.html">
                     <img src="css/img/igua3.jpg" alt="">
-                  </a>
+                </a>
                 <div class="content">
                     <button><a href="igua.html" class="button-animals">Iguanodon</a></button>
                 </div>
@@ -182,82 +200,83 @@
     <section class="openings" id="openings">
         <h2 class="heading">information</h2>
         <hr>
-		<div class="container">
-			<div class="left">
-				<h2>Open</h2>
-				<p>MARCH - OCTOBER</p>
+        <div class="container">
+            <div class="left">
+                <h2>Open</h2>
+                <p>MARCH - OCTOBER</p>
                 <p>Zoo: 9-18 Open </p>
 
                 <p>NOVEMBER - FEBRUARY</p>
                 <p>Zoo: 9-17 Open</p>
-			</div>
-			<div class="right">
-				<h2>Entry</h2>
-				<p>Adults (21+ years): 29Fr.</p>
+            </div>
+            <div class="right">
+                <h2>Entry</h2>
+                <p>Adults (21+ years): 29Fr.</p>
                 <p>Teenagers (16-20 years): 24Fr.</p>
                 <p>Children (6-15 years): 15Fr.</p>
                 <p>Children under 6 years: Free entry</p>
-			</div>
-		</div>
-		<hr>
-	</section>
-
-        <!-- pricing -->
-
-        <section class="event" id="event">
-
-            <h2 class="heading">events</h2>
-    
-            <div class="box-container">
-    
-                <div class="box">
-                    <img src="css/img/event1.png" alt="">
-                    <h3>Theatre</h3>
-                    <h4 class="price">10 Fr.</h4>
-                </div>
-    
-                <div class="box">
-                    <img src="css/img/event2.png" alt="">
-                    <h3>Feed</h3>
-                    <h4 class="price">20 Fr.</h4>
-                </div>
-    
-                <div class="box">
-                    <img src="css/img/event3.png" alt="">
-                    <h3>Brunch</h3>
-                    <h4 class="price">30 Fr.</h4>
-                </div>
-    
             </div>
-    
-        </section>
-    
-        <!-- end -->
+        </div>
+        <hr>
+    </section>
 
-        <!--Footer-->
+    <!-- pricing -->
 
-        <section class="footer">
-            <div class="social">
-                <a href="https://www.instagram.com/jurassiczoo1/"><i class="fab fa-instagram"></i></a>
-                <a href="https://twitter.com/jurassiczoo1"><i class="fab fa-twitter"></i></a>
-                <a href="https://www.facebook.com/profile.php?id=100092211200568"><i class="fab fa-facebook"></i></a>
+    <section class="event" id="event">
+
+        <h2 class="heading">events</h2>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="css/img/event1.png" alt="">
+                <h3>Theatre</h3>
+                <h4 class="price">10 Fr.</h4>
             </div>
-    
-            <ul class="list">
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="policy.html">Privacy Policy</a>
-                </li>
-                <li>
-                    <a href="impressum.html">Impressum</a>
-                </li>
-            </ul>
-            <p class="title">Jurassic Zoo</p>
-        </section>
 
-        <!--end-->
-          
-    </body>
+            <div class="box">
+                <img src="css/img/event2.png" alt="">
+                <h3>Feed</h3>
+                <h4 class="price">20 Fr.</h4>
+            </div>
+
+            <div class="box">
+                <img src="css/img/event3.png" alt="">
+                <h3>Brunch</h3>
+                <h4 class="price">30 Fr.</h4>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- end -->
+
+    <!--Footer-->
+
+    <section class="footer">
+        <div class="social">
+            <a href="https://www.instagram.com/jurassiczoo1/"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com/jurassiczoo1"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100092211200568"><i class="fab fa-facebook"></i></a>
+        </div>
+
+        <ul class="list">
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="policy.html">Privacy Policy</a>
+            </li>
+            <li>
+                <a href="impressum.html">Impressum</a>
+            </li>
+        </ul>
+        <p class="title">Jurassic Zoo</p>
+    </section>
+
+    <!--end-->
+
+</body>
+
 </html>
