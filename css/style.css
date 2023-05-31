@@ -52,7 +52,7 @@ html {
 }
 
 html::-webkit-scrollbar {
-  width: 1rem;
+  width: 0.75rem;
 }
 
 html::-webkit-scrollbar-track {
@@ -61,7 +61,6 @@ html::-webkit-scrollbar-track {
 
 html::-webkit-scrollbar-thumb {
   background-color: #55aa7a;
-  border-radius: 1rem;
 }
 
 section {
