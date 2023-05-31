@@ -219,12 +219,8 @@ section {
   transform: translateY(-20px);
 }
 
-.animal .box-container .box .content button {
-  background-color: transparent;
-}
-
 .animal .box-container .box .content .button-animals {
-  background-color: none;
+  background-color: transparent;
   border: none;
   text-decoration: none;
   text-align: center;
@@ -438,7 +434,7 @@ iframe {
   margin-top: 0;
   padding: 0;
   list-style: none;
-  font-size: 18;
+  font-size: 1.2rem;
   line-height: 1.6;
   margin-bottom: 0;
   text-align: center;
